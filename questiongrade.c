@@ -5,26 +5,27 @@ int main()
     int marks = 85;
     if (marks <= 100 && marks >= 90)
     {
-        grade = 'A';
+        printf("grade = 'A'");
     }
     else if (marks <= 90 && marks >= 80)
     {
-        grade = 'B';
+        printf("grade = 'B'");
     }
     else if (marks <= 80 && marks >= 70)
     {
-        grade = 'c';
+        printf("grade = 'c'");
     }
     else if (marks <= 70 && marks >= 60)
     {
-        grade = 'D';
+        printf("grade = 'D'");
     }
     else if (marks <= 60 && marks >= 50)
     {
-        grade = 'e';
+        printf("grade = 'e'");
     }
     else
     {
-        grade = 'f';
+        printf("grade = 'f'");
     }
+    return 0;
 }
